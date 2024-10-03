@@ -1,0 +1,249 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+h1, h2, h3, h4, h5, h6, a{
+	font-family: font-family: "Roboto Mono", monospace;
+	font-weight: normal;
+}
+
+#wrapper{
+	width: 100%;
+	position: relative;
+}
+#sitHeader{
+	padding: 15px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #fff;
+	box-shadow: 0 -5px 30px rgba(0, 0, 0, 1.0);
+	
+
+
+}
+.space-element{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#logoIcon{
+	font-weight: bold;
+	
+	color: #000;
+	letter-spacing: 5px;
+	
+}
+
+#logoText{
+	letter-spacing: 8px;
+	color: #000;
+	font-size: 15px;
+
+}
+
+#logo{
+
+	text-decoration: none;
+}
+
+#menu{
+	list-style-type: none;
+}
+
+#menu li{
+	float: left;
+}
+
+#menu li a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 0 20px;
+	letter-spacing: 4px;
+}
+
+#sitelogoText{
+	color: #fff;
+	font-size: 30px;
+	font-family: "Roboto Mono", monospace;
+	letter-spacing: 6px;
+}
+
+#banner{
+	background: url(../images/architect.jpg) no-repeat center center;
+	padding:150px 0 100px 0 ;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+
+
+.container {
+	width: 100%;
+
+}
+.rix{
+	width: 260px;
+}
+#siteLogContainer{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.column-content img{
+	width:100%;
+	height: auto;
+}
+
+
+
+.colum-content {
+	position: relative;
+}
+
+.project-title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0,0.5);
+	padding: 10px;
+	color: #fff;
+	font-size: 10px;	
+}
+
+#about p {
+	word-spacing: 5px;
+	line-height: 22px;
+}
+
+.section-heading > p{
+	margin-bottom: 40px;
+}
+
+.team-m1{
+	margin: 20px 0px;
+}
+
+.team-designation{
+	color: rgba(0, 0, 0, 0.4);
+}
+.btn{
+	padding: 15px 15px;
+
+}
+
+.btn-light{
+	background-color: rgba(247, 247, 247, 1);
+	color: #000;
+	text-decoration: none;
+}
+.btn-block{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.team-content{
+	color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 10px;
+}
+
+#siteLogoIcon{
+	display: inline-block;
+	background-color: rgba(0, 0, 0,0.7);
+	color: rgba(225, 255, 255, 0.0);
+	padding: 15px;
+	font-weight: bold;
+	font-size: 45px;
+	color: white;
+}
+#siteLogoText{
+	color: #fff;
+	font-size: 10px;
+	font-family:  "Roboto Mono", monospace ;
+	letter-spacing: 6px;
+}
+
+.section-padding{
+	padding: 40px;
+}
+
+.section-heading{
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.form-group{
+	margin-bottom: 20px;
+}
+.form-control{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #000;
+
+}
+.btn-dark{
+	background-color: #000;
+	color: #fff;
+	border-style: none;
+}
+
+
+#mapping{
+	background: url(../images/map.jpg) no-repeat center center/cover;
+	padding: 300px;
+	margin-top: 20px;
+}
+
+
+#siteFooter{
+	background-color: #000;
+	color: #fff;
+	padding: 40px 0px;
+	text-align: center;
+}
+#siteFooter spam{
+	text-decoration: underline;
+}
+#mapping > img{
+	display: none;
+}
+
+@media only screen and (max-width:600px){
+
+#siteNavigation, #siteLogoText{
+	display: none;
+}
+
+#mapping > img{
+	display: block;
+	width: 350%;
+	height: 300px;
+}
+
+#mapping{
+	background: initial;
+	padding: 60px;
+	margin-top: 10px;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	margin-bottom: ;
+}
+
+#banner{
+	padding: 150px 0px;
+
+}
+
+}
