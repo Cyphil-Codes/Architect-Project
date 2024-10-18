@@ -6,7 +6,7 @@
 
 }
 h1, h2, h3, h4, h5, h6, a{
-	font-family: font-family: "Roboto Mono", monospace;
+	font-family: font-family "Roboto Mono", monospace;
 	font-weight: normal;
 }
 
@@ -203,6 +203,7 @@ h1, h2, h3, h4, h5, h6, a{
 	background: url(../images/map.jpg) no-repeat center center/cover;
 	padding: 300px;
 	margin-top: 10px;
+	margin-bottom: -32px;
 }
 
 
@@ -211,6 +212,7 @@ h1, h2, h3, h4, h5, h6, a{
 	color: #fff;
 	padding: 40px 0px;
 	text-align: center;
+	
 }
 #siteFooter span{
 	text-decoration: underline;
